@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 
-<!-->
+<!--
 
 Dogs vs Cats
 
 pulls from random dog and random cat api to show two pictures
 two buttons, one for "this dog wins" and one for "this cat wins"
 example images given, of a dog and a cat, and text explaining how it works
+the example is under a show more ▼ ▲
 
-<-->
+-->
 
 <html>
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-</head>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/
+    css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B
+    09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Dogs vs Cats</title>
+  </head>
+  <body>
+    <h1>Dogs vs Cats</h1>
+    <p>It's very simple. You can see here are two images, of a dog and a cat. </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img id="dog" src="images/Lucy_the_Dog_at_The_Green,_Town_Square_Las_Vegas.jpg" alt="A big dog
+           with brown fur" class="img-fluid">
+          <p>
+            <input id="dogclicker" type="button" value="dog"></input>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img id="cat" src="images/1413379559_412a540d29_b.jpg" alt="A cat with dark fur of various shades and a white underbelly"
+          class="img-fluid">
+          <p>
+            <input id="catclicker" type="button" value="cat"></input>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>
