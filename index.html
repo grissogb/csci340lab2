@@ -15,6 +15,7 @@ Leaning towards dark mode for the look of the site, and otherwise going barebone
 
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -22,20 +23,18 @@ Leaning towards dark mode for the look of the site, and otherwise going barebone
   </head>
   <body style="background-color: black;color: white">
     <h1 style="text-align: center">Dogs vs Cats</h1>
-    <h3 class="m-4">
-      <p>It's very simple. You can see here are two images, of a dog and a cat, as well as two buttons, labeled as such. Your job, should you choose to accept it, is to choose which of the animals in the image is better.</p>
-      <p>What "better" means is, of course, up to you. It could mean cuter, it could mean more likely to win in a fight, it could be who's gonna win a basketball competition (although the dogs have the advantage there, I'd say).</p>
-      <p>When you've made your decision, click the loser's button, and it will change to a new one of the same animal, and in the bar next to this button you will see the number increase, as this animal's "winning streak" as it were.</p>
-      <p>Ultimately, this site is for you to have fun, and see some pictures of cute animals.</p>
-    </h3>
+    <h3 class="m-4">It's very simple. You can see here are two images, of a dog and a cat, as well as two buttons, labeled as such. Your job, should you choose to accept it, is to choose which of the animals in the image is better.
+    <br><br>What "better" means is, of course, up to you. It could mean cuter, it could mean more likely to win in a fight, it could be who's gonna win a basketball competition (although the dogs have the advantage there, I'd say).
+    <br><br>When you've made your decision, click the loser's button, and it will change to a new one of the same animal, and in the bar next to this button you will see the number increase, as this animal's "winning streak" as it were.
+    <br><br>Ultimately, this site is for you to have fun, and see some pictures of cute animals.</h3>
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <input id="dogclicker" type="button" value="dog"></input>
+          <input id="dogclicker" type="button" value="dog">
           <p id="dogcount">0</p>
         </div>
         <div class="col-6">
-          <input id="catclicker" type="button" value="cat"></input>
+          <input id="catclicker" type="button" value="cat">
           <p id="catcount">0</p>
         </div>
       </div>
